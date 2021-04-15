@@ -1,0 +1,64 @@
+@media all and (max-width: 880px) {
+  nav ul {
+    margin-right: 0px;
+    float: left;
+    margin-left: -15px;
+    width: 70%;
+    margin-top: 9px;
+    transform: translate(-100%);
+    transition: 0.3s;
+    -webkit-transform: translate(-100%);
+    -moz-transform: translate(-100%);
+    -ms-transform: translate(-100%);
+    -o-transform: translate(-100%);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+  nav ul li,
+  nav ul ul li {
+    display: block;
+    width: 100%;
+    border-top: 1px solid rgb(85 85 85 / 42%);
+  }
+  nav > label {
+    padding-left: 20px;
+    width: 100%;
+  }
+  nav ul ul {
+    position: static;
+    padding-left: 35px;
+    float: right;
+    width: 100%;
+  }
+  nav ul ul li {
+    background: #23331c;
+    border-color: #404040;
+  }
+  nav ul ul ul {
+    padding-left: -2px;
+    float: revert;
+    position: relative;
+  }
+
+  nav ul ul ul li {
+    left: 15px;
+    background: #2d3c26;
+    width: 100%;
+  }
+  i.bar {
+    display: block;
+  }
+  .hide {
+    transform: translate(0%);
+  }
+  main.shadow {
+   background:
+   linear-gradient(45deg,#000000ab,#000000a1),url(https://images.pexels.com/photos/3943882/pexels-photo-3943882.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+   background-position: center;
+   background-size: cover;
+   transition:0.7s;
+   background-repeat: no-repeat;
+}
+}
