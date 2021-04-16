@@ -20,4 +20,5 @@ show.forEach( (remove) => {
 bar.addEventListener("click", () => {
     nav_ul.classList.toggle("hide")
     background.classList.toggle("shadow")
+    bar.classList.toggle("fa-times")
 });
